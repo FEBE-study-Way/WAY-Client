@@ -44,3 +44,25 @@ jobs:
 
       - name: Build
         run: pnpm build
+
+      - name: Success Discord Notification
+        uses: sarisia/actions-status-discord@v1.15.5
+        if: success()
+        with:
+          webhook: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          title: '✅ CI 성공'
+          description: '${{ github.event.pull_request.title }}'
+          url: ${{ github.event.pull_request.html_url }}
+          username: WAY-front bot
+          color: 0x4CAF50
+
+      - name: Failure Discord Notification
+        uses: sarisia/actions-status-discord@v1.15.5
+        if: failure()
+        with:
+          webhook: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          title: '❌ CI 실패'
+          description: '${{ github.event.pull_request.title }}'
+          url: ${{ github.event.pull_request.html_url }}
+          username: WAY-front bot
+          color: 0xF44336
