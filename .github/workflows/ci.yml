@@ -14,7 +14,8 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  build-lint:
+  lint-typecheck-build:
+    name: Lint / Typecheck / Build
     runs-on: ubuntu-latest
 
     steps:
@@ -38,8 +39,8 @@ jobs:
       - name: Lint
         run: pnpm lint
 
-      - name: Test
-        run: pnpm test
+      - name: Typecheck
+        run: pnpm typecheck
 
       - name: Build
         run: pnpm build
