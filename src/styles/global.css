@@ -8,7 +8,6 @@
   --gray-500: #536478;
   --gray-600: #3b4a5a;
   --gray-700: #2f3a46;
-  --gray-700-30: #2f3a464d;
   --gray-800: #1f2b38;
   --gray-900: #0b1520;
 
@@ -75,12 +74,4 @@ h5 {
 .body6 {
   font-size: 12px;
   font-weight: 400;
-}
-
-/* 유틸리티 클래스*/
-.bg-gray-700-30 {
-  background: var(--gray-700-30);
-}
-.text-gray-700-30 {
-  color: var(--gray-700-30);
 }
