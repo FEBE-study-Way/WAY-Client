@@ -19,8 +19,7 @@
 
   --white-100: #ffffff;
   --white-200: #f6f8fc;
-
-  --font-family: "Pretendard", "sans-serif";
+  --font-family: var(--font-pretendard), sans-serif;
 }
 
 body {
