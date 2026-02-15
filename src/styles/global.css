@@ -19,38 +19,36 @@
 
   --color-white-100: #ffffff;
   --color-white-200: #f6f8fc;
-
-  --font-family: var(--font-pretendard), sans-serif;
 }
 
-@layer {
+@layer base {
   body {
-    font-family: var(--font-family);
     color: var(--color-gray-900);
     background: var(--color-white-100);
   }
+}
 
-  h1 {
+@layer utilities {
+  .h1 {
     font-size: 36px;
     font-weight: 600;
   }
-  h2 {
+  .h2 {
     font-size: 28px;
     font-weight: 600;
   }
-  h3 {
+  .h3 {
     font-size: 24px;
     font-weight: 600;
   }
-  h4 {
+  .h4 {
     font-size: 20px;
     font-weight: 500;
   }
-  h5 {
+  .h5 {
     font-size: 20px;
     font-weight: 600;
   }
-
   .body1 {
     font-size: 18px;
     font-weight: 600;
