@@ -12,7 +12,7 @@ export default function SigninView() {
         <p className="body1 text-center">학교 실 관리/신청</p>
       </div>
       <div>
-        <button className="flex justify-center gap-5 border border-gray-200 text-gray-700 body1 rounded-xl w-100 h-13.25 py-3 cursor-pointer">
+        <button className="flex justify-center gap-5 border border-gray-200 text-gray-700 body1 rounded-full w-100 h-13.25 py-3 cursor-pointer">
           <Google /> Google로 계속하기
         </button>
       </div>
