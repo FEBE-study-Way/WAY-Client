@@ -1,5 +1,4 @@
-import Google from '@/assets/svg/Google';
-import Logo from '@/assets/svg/Logo';
+import { Google, Logo } from '@/assets';
 
 export default function SigninView() {
   return (
