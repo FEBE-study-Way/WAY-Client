@@ -1,4 +1,4 @@
-import XButton from '@/assets/svg/XButton';
+import XButton from '@/assets/svg/CloseIcon';
 
 interface ModalProps {
   children: React.ReactNode;
