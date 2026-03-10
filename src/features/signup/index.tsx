@@ -1,7 +1,7 @@
 import { Logo } from '@/assets';
 import { Input, TermItem } from '@/components';
-import ServiceContent from '../../components/modal/signupModal/ServiceContent';
-import InformationContent from '../../components/modal/signupModal/InformationContent';
+import ServiceContent from '@/components/modal/signupModal/ServiceContent';
+import InformationContent from '@/components/modal/signupModal/InformationContent';
 
 export default function SignupView() {
   return (
