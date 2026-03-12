@@ -1,4 +1,4 @@
-import SignupView from '@/features/signup';
+import SignupView from '@/pageContainer/signup';
 
 export default function SignupPage() {
   return <SignupView />;
