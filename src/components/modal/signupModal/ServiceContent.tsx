@@ -45,7 +45,7 @@ export default function ServiceContent() {
       </div>
 
       <div className="flex flex-col gap-2">
-        <h3 className="h3 text-gray-600">6조(책임의 제한)</h3>
+        <h3 className="h3 text-gray-600">제6조(책임의 제한)</h3>
         <p>
           본 서비스는 무료로 제공되는 서비스로, 운영팀의 고의 또는 중과실이 없는 한 서비스 이용
           과정에서 발생한 손해에 대해 책임을 지지 않습니다.

@@ -1,4 +1,4 @@
-import XButton from '@/assets/svg/XButton';
+import { CloseIcon } from '@/assets';
 
 interface ModalProps {
   children: React.ReactNode;
@@ -24,7 +24,7 @@ export default function Modal({
             onClick={onClose}
             className="cursor-pointer text-gray-400 hover:text-gray-600 ml-auto"
           >
-            <XButton />
+            <CloseIcon />
           </button>
         </div>
         <div className="overflow-y-auto flex-1 pr-2">{children}</div>
